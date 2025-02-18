@@ -1,11 +1,17 @@
+import { Routes, Route } from "react-router-dom";
+import "./App.css";
+import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
+
 const App = () => {
   return (
-    <div
-      className="h-screen bg-gray-800 flex justify-center items-center"
-    >
-      <h1 className="text-3xl text-white">Site Getting ready soon.......!</h1>
-    </div>
-  )
-}
+    <>
+      <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route path="*" element={<NotFound />}></Route>
+      </Routes>
+    </>
+  );
+};
 
-export default App
+export default App;
