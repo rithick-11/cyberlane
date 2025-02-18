@@ -1,4 +1,3 @@
-import CollegeLogo from "../assets/Collegelogo.png"
 
 
 const CollegeCard = () => {
@@ -6,7 +5,7 @@ const CollegeCard = () => {
     <div className="flex justify-between items-center text-white">
       <img
         className="h-40 w-auto"
-        src={CollegeLogo}
+        src="https://res.cloudinary.com/dwpmsw2i4/image/upload/v1739894754/college%20logo.png"
         alt="logo 1"
       />
       <div className="flex flex-col justify-center items-center gap-3">
@@ -22,7 +21,7 @@ const CollegeCard = () => {
       {/* <img className="h-20 w-auto" src="https://mahendra.org/wp-content/uploads/2021/04/mahendra_text-only-1.png" /> */}
       <img
         className="h-40 w-auto"
-        src={CollegeLogo}
+        src="https://res.cloudinary.com/dwpmsw2i4/image/upload/v1739894754/college%20logo.png"
         alt="logo 1"
       />
     </div>

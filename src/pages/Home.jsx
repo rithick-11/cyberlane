@@ -18,9 +18,13 @@ const Home = () => {
             </h1>
             <p>Presents's</p>
             <span className="inline-flex text 5xl sm:text-6xl mdtext-7xl animate-text-gradient bg-gradient-to-r from-orange-500 to-orange-200 bg-[200%_auto] bg-clip-text text-xl text-transparent">
-              Cyber.@lone
+              Cyberl@one
             </span>
-            <a href="#" className="block mt-4">
+            <a
+              href="https://www.linkedin.com/posts/owasp-mahendra-engineering-college_mahendra-engineering-college-the-department-activity-7297643681543516160-Eex4?utm_source=share&utm_medium=member_desktop&rcm=ACoAACPi-I8Bvq4wwDBX-9AJ--TbyRWzxwWvDxQ"
+              className="block mt-4"
+              target="_blank"
+            >
               <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-50">
                 <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                 <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-gray-950 px-8 py-1 text-sm font-medium text-gray-50 backdrop-blur-3xl">

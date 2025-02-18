@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className="bg-black/50 sticky top-0">
       <Container>
         <div className="py-3 ">
-          <Link to="/" className="text-2xl md:text-3xl text-white/90 tiitle-font">Cyberalone</Link>
+          <Link to="/" className="text-2xl md:text-3xl text-white/90 tiitle-font">Cyberlane</Link>
         </div>
       </Container>
     </nav>
