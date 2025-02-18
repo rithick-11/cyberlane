@@ -18,7 +18,7 @@ const Home = () => {
             </h1>
             <p>Presents's</p>
             <span className="inline-flex text 5xl sm:text-6xl mdtext-7xl animate-text-gradient bg-gradient-to-r from-orange-500 to-orange-200 bg-[200%_auto] bg-clip-text text-xl text-transparent">
-              Cyberl@one
+              Cyber.l@ne
             </span>
             <a
               href="https://docs.google.com/forms/d/1CXbdCbWANm3TK0Kz7j2JLez7mJwdBD1FCaExqy8fosI/edit?pli=1"
