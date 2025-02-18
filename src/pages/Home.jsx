@@ -21,11 +21,11 @@ const Home = () => {
               Cyberl@one
             </span>
             <a
-              href="https://www.linkedin.com/posts/owasp-mahendra-engineering-college_mahendra-engineering-college-the-department-activity-7297643681543516160-Eex4?utm_source=share&utm_medium=member_desktop&rcm=ACoAACPi-I8Bvq4wwDBX-9AJ--TbyRWzxwWvDxQ"
+              href="https://docs.google.com/forms/d/1CXbdCbWANm3TK0Kz7j2JLez7mJwdBD1FCaExqy8fosI/edit?pli=1"
               className="block mt-4"
               target="_blank"
             >
-              <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-50">
+              <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none">
                 <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                 <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-gray-950 px-8 py-1 text-sm font-medium text-gray-50 backdrop-blur-3xl">
                   Register Now
