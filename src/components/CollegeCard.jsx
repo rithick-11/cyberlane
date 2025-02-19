@@ -3,13 +3,13 @@ const CollegeCard = () => {
     <div className="flex flex-col md:flex-row  justify-between items-center text-white gap-4">
       <img
           className="h-32 rounded-full hidden md:block md:h-40 w-auto"
-          src="http://mahendra.info/hackedu24/logo-wide1.png"
+          src="https://res.cloudinary.com/dwpmsw2i4/image/upload/v1739948737/logo-wide1_ynrh2l.jpg"
           alt="logo 1"
         />
       <div className="flex gap-7 md:hidden">
         <img
           className="h-32 rounded-full md:h-40 w-auto"
-          src="http://mahendra.info/hackedu24/logo-wide1.png"
+          src="https://res.cloudinary.com/dwpmsw2i4/image/upload/v1739948737/logo-wide1_ynrh2l.jpg"
           alt="logo 1"
         />
         <img
@@ -28,7 +28,6 @@ const CollegeCard = () => {
           Accredited with 'A++' Grade & NBA Tier - 1(WA) UG: CSE,ECE,EEE
         </p>
       </div>
-      {/* <img className="h-20 w-auto" src="https://mahendra.org/wp-content/uploads/2021/04/mahendra_text-only-1.png" /> */}
       <img
         className="h-32 rounded-full md:h-40 w-auto hidden md:block"
         src="https://media.licdn.com/dms/image/v2/C560BAQEz4acMnAuqrA/company-logo_200_200/company-logo_200_200/0/1678090772077?e=1747872000&v=beta&t=YpYlYaCkNqKw7r8ny3g8gxiyvDEX30DBB6utipZXy2I"
