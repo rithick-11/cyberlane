@@ -8,6 +8,9 @@ const BgContainer = () => {
         <div className="delay-1000 blur-flow absolute md:top-80 h-14 w-14 top-40 left-20 md:left-60 md:h-20 md:w-20 bg-purple-500 rounded-full blur-3xl"></div>
         <div className="delay-700 blur-flow absolute md:top-90 h-14 w-14 top-30 left-14 md:left-50 md:h-20 md:w-20 bg-amber-500 rounded-full blur-3xl"></div>
         <div className="delay-1000 blur-flow absolute md:top-100 h-14 w-14 top-56 left-12 md:left-70 md:h-30 md:w-30 bg-orange-500/50 rounded-full blur-3xl"></div>
+        <div className="delay-1000 blur-flow absolute md:bottom-80 h-14 w-14 bottom-40 right-20 md:left-60 md:h-20 md:w-20 bg-purple-500 rounded-full blur-3xl"></div>
+        <div className="delay-700 blur-flow absolute md:bottom-90 h-14 w-14 bottom-30 right-14 md:left-50 md:h-20 md:w-20 bg-amber-500 rounded-full blur-3xl"></div>
+        <div className="delay-1000 blur-flow absolute md:bottom-100 h-14 w-14 bottom-56 right-12 md:left-70 md:h-30 md:w-30 bg-orange-500/50 rounded-full blur-3xl"></div>
       </div>
   )
 }

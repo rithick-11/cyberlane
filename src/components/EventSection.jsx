@@ -4,7 +4,7 @@ const EventSection = () => {
   return (
     <section className="text-white py-4 text-sm space-y-5">
       <h1 className="text-center text-balance text-4xl">Event's</h1>
-      <ul className="grid sm:grid-cols-2 md:grid-cols-4 gap-3">
+      <ul className="grid sm:grid-cols-2 md:grid-cols-4 gap-5">
         {eventsList.map((event, i) => (
           <li
             key={i}
