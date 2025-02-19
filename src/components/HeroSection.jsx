@@ -1,3 +1,4 @@
+import { SlCalender, SlLocationPin } from "react-icons/sl";
 import CollegeCard from "./CollegeCard";
 
 const HeroSection = () => {
@@ -10,9 +11,15 @@ const HeroSection = () => {
         </h1>
         <p>Present's</p>
         <span className="inline-flex text-5xl sm:text-6xl mdtext-7xl animate-text-gradient bg-gradient-to-r from-orange-500 to-orange-200 bg-[200%_auto] bg-clip-text text-transparent">
-          Cyber.l@ne
+          Cyber.l@ne 2k25
         </span>
-        <p>@ 24/02/2025</p>
+        <p className="flex items-center gap-2">
+          <SlLocationPin />
+          thiruvalluvar arangam
+        </p>
+        <p className="flex items-center gap-2">
+          <SlCalender /> 24/02/2025
+        </p>
         <a
           href="https://docs.google.com/forms/d/1CXbdCbWANm3TK0Kz7j2JLez7mJwdBD1FCaExqy8fosI/edit?pli=1"
           className="block mt-4"

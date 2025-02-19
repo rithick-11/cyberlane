@@ -18,7 +18,7 @@ const LocationSection = () => {
             loading="lazy"
           ></iframe>
         </div>
-        <div>
+        <div className="grid grid-cols-2">
           <div className="">
             <h1 className="my-4 text-xl text-orange-400 font-semibold">
               Faculty Coordinator
@@ -28,7 +28,7 @@ const LocationSection = () => {
                 <li key={i}>
                   <p className="text-lg text-gray-100">{data.name}</p>
                   <a href={`tel:+91${data.phNo}`}>
-                    <p className="text-sm text-gray-100/90">+91 {data.phNo}</p>
+                    <p className="text-sm text-gray-100/90 underline">+91 {data.phNo}</p>
                   </a>
                 </li>
               ))}
@@ -43,10 +43,34 @@ const LocationSection = () => {
                 <li key={i}>
                   <p className="text-lg text-gray-100">{data.name}</p>
                   <a href={`tel:+91${data.phNo}`}>
-                    <p className="text-sm text-gray-100/90">+91 {data.phNo}</p>
+                    <p className="text-sm text-gray-100/90 underline">+91 {data.phNo}</p>
                   </a>
                 </li>
               ))}
+            </ul>
+          </div>
+          <div className="">
+            <h1 className="my-4 text-xl text-orange-400 font-semibold">
+              Payment
+            </h1>
+            <ul className="pl-4 space-y-5 text-sm">
+              <li className="flex flex-col items-start gap-2">
+                <div className="flex gap-2">
+                  <p>UPI ID :</p>
+                  <a
+                    href="upi://pay?pa=roopame1995-1@okicici&pn=Roopame&am=200&cu=INR&url=https://gpay.app.goo.gl/"
+                    target="_blank"
+                    className="underline"
+                  >
+                    roopame1995-1@okicici
+                  </a>
+                </div>
+                <img
+                  src="https://res.cloudinary.com/dwpmsw2i4/image/upload/v1739956964/uip_xqoypa.jpg"
+                  alt="uip image"
+                  className="h-30 rounded"
+                />
+              </li>
             </ul>
           </div>
         </div>

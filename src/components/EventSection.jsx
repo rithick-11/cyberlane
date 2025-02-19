@@ -8,7 +8,7 @@ const EventSection = () => {
         {eventsList.map((event, i) => (
           <li
             key={i}
-            className="px-3 py-5 rounded-lg space-y-3 shadow border-orange-500 border-2 bg-gray-800/80 drop-shadow-lg"
+            className="px-3 py-5 rounded-lg space-y-3 shadow gap-3 border-orange-500 border-2 bg-gray-800/80 drop-shadow-lg"
           >
             <img
               src={event.imgUrl}
@@ -29,7 +29,7 @@ const EventSection = () => {
                 </li>
               ))}
             </ul>
-            <div className="">
+            <div className="mt-auto">
               <a
                 href="https://docs.google.com/forms/d/1CXbdCbWANm3TK0Kz7j2JLez7mJwdBD1FCaExqy8fosI/edit?pli=1"
                 className="block mr-auto w-full"
