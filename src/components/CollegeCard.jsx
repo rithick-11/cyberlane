@@ -12,7 +12,7 @@ const CollegeCard = () => {
         <h1 className="font-light text-2xl md:text-3xl text-center">
           Mahendra Engineering College (Autonomous)
         </h1>
-        <p className="font-extralight text-xs sm:text-sm md:text-lg w-[80%] text-center">
+        <p className="font-extralight hidden md:block text-xs sm:text-sm w-[80%] text-center">
           Autonomous Institution Approved by AICTE | Recognized U/S 12(B) & 2(F)
           of UGC ACT 1956 Affiliated to Anna University, Chennai | NAAC
           Accredited with 'A++' Grade & NBA Tier - 1(WA) UG: CSE,ECE,EEE
