@@ -49,18 +49,18 @@ const LocationSection = () => {
               ))}
             </ul>
           </div>
-          <div className="">
+          <div className="col-start-2 row-start-1">
             <h1 className="my-4 text-xl text-orange-400 font-semibold">
               Payment
             </h1>
             <ul className="pl-4 space-y-5 text-sm">
               <li className="flex flex-col items-start gap-2">
-                <div className="flex gap-2">
+                <div className="flex flex-col gap-1">
                   <p>UPI ID :</p>
                   <a
                     href="upi://pay?pa=roopame1995-1@okicici&pn=Roopame&am=200&cu=INR&url=https://gpay.app.goo.gl/"
                     target="_blank"
-                    className="underline"
+                    className="underline "
                   >
                     roopame1995-1@okicici
                   </a>
