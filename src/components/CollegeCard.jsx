@@ -1,13 +1,23 @@
-
-
 const CollegeCard = () => {
   return (
-    <div className="flex flex-col md:flex-row  justify-between items-center text-white">
+    <div className="flex flex-col md:flex-row  justify-between items-center text-white gap-4">
       <img
-        className="h-40 w-auto"
-        src="https://res.cloudinary.com/dwpmsw2i4/image/upload/v1739894754/college%20logo.png"
-        alt="logo 1"
-      />
+          className="h-32 rounded-full hidden md:block md:h-40 w-auto"
+          src="http://mahendra.info/hackedu24/logo-wide1.png"
+          alt="logo 1"
+        />
+      <div className="flex gap-7 md:hidden">
+        <img
+          className="h-32 rounded-full md:h-40 w-auto"
+          src="http://mahendra.info/hackedu24/logo-wide1.png"
+          alt="logo 1"
+        />
+        <img
+          className="h-32 rounded-full md:h-40 w-auto block md:hidden"
+          src="https://media.licdn.com/dms/image/v2/C560BAQEz4acMnAuqrA/company-logo_200_200/company-logo_200_200/0/1678090772077?e=1747872000&v=beta&t=YpYlYaCkNqKw7r8ny3g8gxiyvDEX30DBB6utipZXy2I"
+          alt="logo 1"
+        />
+      </div>
       <div className="flex flex-col justify-center items-center gap-3">
         <h1 className="font-light text-2xl md:text-3xl text-center">
           Mahendra Engineering College (Autonomous)
@@ -20,8 +30,8 @@ const CollegeCard = () => {
       </div>
       {/* <img className="h-20 w-auto" src="https://mahendra.org/wp-content/uploads/2021/04/mahendra_text-only-1.png" /> */}
       <img
-        className="h-40 w-auto hidden md:block"
-        src="https://res.cloudinary.com/dwpmsw2i4/image/upload/v1739894754/college%20logo.png"
+        className="h-32 rounded-full md:h-40 w-auto hidden md:block"
+        src="https://media.licdn.com/dms/image/v2/C560BAQEz4acMnAuqrA/company-logo_200_200/company-logo_200_200/0/1678090772077?e=1747872000&v=beta&t=YpYlYaCkNqKw7r8ny3g8gxiyvDEX30DBB6utipZXy2I"
         alt="logo 1"
       />
     </div>

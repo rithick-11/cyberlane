@@ -29,7 +29,7 @@ const EventSection = () => {
                 </li>
               ))}
             </ul>
-            <div className="pl-auto">
+            <div className="">
               <a
                 href="https://docs.google.com/forms/d/1CXbdCbWANm3TK0Kz7j2JLez7mJwdBD1FCaExqy8fosI/edit?pli=1"
                 className="block mr-auto w-full"
