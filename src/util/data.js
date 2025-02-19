@@ -42,7 +42,7 @@ export const eventsList = [
 export const coordinator = {
   student: [
     {
-      name: "Nadha M",
+      name: "Nandha M",
       phNo: "9342213152",
     },
     {
