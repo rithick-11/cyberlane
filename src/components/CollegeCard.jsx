@@ -9,7 +9,7 @@ const CollegeCard = () => {
       <div className="flex gap-7 md:hidden">
         <img
           className="h-32 rounded-full md:h-40 w-auto"
-          src="http://mahendra.info/hackedu24/logo-wide1.png"
+          src="https://res.cloudinary.com/dwpmsw2i4/image/upload/v1739948737/logo-wide1_ynrh2l.jpg"
           alt="logo 1"
         />
         <img
