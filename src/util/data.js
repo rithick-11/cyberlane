@@ -22,6 +22,14 @@ export const eventsList = [
     topic: [],
   },
   {
+    title: "Paper Presentation",
+    imgUrl:
+      "https://res.cloudinary.com/dwpmsw2i4/image/upload/v1739948133/paper_prasentation_nyljtq.png",
+    description:
+      "Showcase your research and innovative ideas! Present your paper to a panel of experts and gain recognition for your technical prowess.",
+    topic: [],
+  },
+  {
     title: "Fun Arena ",
     imgUrl:
       "https://res.cloudinary.com/dwpmsw2i4/image/upload/v1739938617/Fun_arena_cgx6td.png",
