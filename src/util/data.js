@@ -6,11 +6,12 @@ export const eventsList = [
     description:
       "Engage in exciting tech-based games and challenges designed to test your skills and creativity in a fun environment",
     topic: [
-      "Web Workflow",
-      "Intro to MERN Stack",
-      "REST Api's",
-      "Authentication & Authorization",
-      "Deployment",
+      "How the Web Works",
+      "What is Web Development?",
+      "Introduction to MERN Stack",
+      "REST APIs & Authentication",
+      "Git & GitHub",
+      "How to Deploy a Website"
     ],
   },
   {
