@@ -4,7 +4,7 @@ import CountdownTimer from "./CountdownTimer";
 
 const HeroSection = () => {
   return (
-    <div className="h-[95vh] flex flex-col justify-center text-white gap-14">
+    <div className="h-[95vh] flex flex-col justify-center text-white gap-4">
       <CollegeCard />
       <div className="flex flex-col gap-4 justify-center items-center">
         <h1 className="text-3xl sm:4xl md:5xl font-normal">

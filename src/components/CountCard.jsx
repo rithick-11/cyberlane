@@ -20,8 +20,8 @@ const CountCard = () => {
             <li key={vist._id} className="grid grid-cols-4">
               <p>{`${format(vist.date, "dd-MMM-yy hh:mm a")}`}</p>
               <p>{vist.record?.browser?.split(";")[0]}</p>
-              <p>{vist.record.platform}</p>
-              <p>{vist.record.location}</p>
+              <p>{vist.record?.platform}</p>
+              <p>{vist.record?.location}</p>
             </li>
           ))}
       </ul>
