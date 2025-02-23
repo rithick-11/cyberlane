@@ -13,13 +13,13 @@ const Register = () => {
       <Container>
         <NavBar />
         <div className="pt-[10vh] pb-7 min-h-screen text-white/60">
-          <h1 className="text-3xl font-semibold text-orange-400">
+          <h1 className="text-3xl font-extralight- text-orange-400">
             Registration
           </h1>
-          <div className="flex flex-col justify-center gap-4 items-center h-full text-center">
-            <p className="text-2xl text-red-400">Online Registration Closed</p>
-            <p className="inline-flex font-semibold text-4xl animate-text-gradient bg-gradient-to-r from-orange-400 to-amber-300 bg-[200%_auto] bg-clip-text text-transparent">
-              Spot Registration Available!
+          <div className="flex flex-col py-8 justify-center gap-4 items-center h-full text-center">
+            <p className="text-xl text-red-500">Online Registration Closed</p>
+            <p className="inline-flex font-semibold text-3xl animate-text-gradient bg-gradient-to-r from-orange-400 to-amber-100 bg-[200%_auto] bg-clip-text text-transparent">
+              Spot Registration Available !
             </p>
             <CountdownTimer />
             <p className="text-white">
