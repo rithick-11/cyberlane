@@ -17,7 +17,7 @@ const PaymentMethod = () => {
     setCount(count - 1);
   };
   return (
-    <div className="flex flex-col justify-center items-center gap-1 text-white font-light">
+    <div className="flex flex-col hidden justify-center items-center gap-1 text-white font-light">
       <div className="flex text-2xl gap-3">
         <button onClick={onDecCount}>
           <GrFormSubtract />
