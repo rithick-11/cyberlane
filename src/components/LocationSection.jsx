@@ -18,7 +18,7 @@ const LocationSection = () => {
             loading="lazy"
           ></iframe>
         </div>
-        <div className="grid grid-cols-2">
+        <div className="grid md:grid-cols-2">
           <div className="">
             <h1 className="my-4 text-xl text-orange-400 font-semibold">
               Faculty Coordinator
@@ -49,7 +49,7 @@ const LocationSection = () => {
               ))}
             </ul>
           </div>
-          <div className="col-start-2 row-start-1">
+          <div className="col-start-2 hidden row-start-1">
             <h1 className="my-4 text-xl text-orange-400 font-semibold">
               Payment
             </h1>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { eventsList } from "../util/data";
 
 const EventSection = () => {
@@ -30,15 +31,11 @@ const EventSection = () => {
               ))}
             </ul>
             <div className="mt-auto">
-              <a
-                href="https://docs.google.com/forms/d/1CXbdCbWANm3TK0Kz7j2JLez7mJwdBD1FCaExqy8fosI/edit?pli=1"
-                className="block mr-auto w-full"
-                target="_blank"
-              >
+              <Link to="/register" className="block mr-auto w-full">
                 <span className="px-4 py-2 rounded-sm w-full bg-orange-400">
                   Register Now
                 </span>
-              </a>
+              </Link>
             </div>
           </li>
         ))}
