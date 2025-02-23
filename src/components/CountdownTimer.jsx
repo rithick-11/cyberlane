@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { differenceInSeconds, formatDuration, intervalToDuration } from "date-fns";
 
 const CountdownTimer = () => {
-  const targetDate = new Date("2025-02-24T00:00:00"); // Target Date: 24th Feb 2025
+  const targetDate = new Date("2025-02-24T10:00:00"); // Target Date: 24th Feb 2025
   const [timeLeft, setTimeLeft] = useState(differenceInSeconds(targetDate, new Date()));
 
   useEffect(() => {
