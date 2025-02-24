@@ -30,12 +30,19 @@ const EventSection = () => {
                 </li>
               ))}
             </ul>
-            <div className="mt-auto">
-              <Link to="/register" className="block mr-auto w-full">
+            <div className="mt-auto flex justify-between items-center">
+              <Link to="/register" className="block">
                 <span className="px-4 py-2 rounded-sm w-full bg-orange-400">
                   Register Now
                 </span>
               </Link>
+              {event.showData && (
+                <div className="cursor-pointer underline">
+                  <a href="https://res.cloudinary.com/dwpmsw2i4/raw/upload/v1740318622/index.html">
+                    index file{" "}
+                  </a>
+                </div>
+              )}
             </div>
           </li>
         ))}

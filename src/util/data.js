@@ -13,6 +13,7 @@ export const eventsList = [
       "Git & GitHub",
       "How to Deploy a Website"
     ],
+    showData:  new Date("2025-02-24T11:00:00") < new Date()
   },
   {
     title: "Capture The Flag (CTF)",
@@ -21,6 +22,7 @@ export const eventsList = [
     description:
       "Put your cybersecurity skills to the test! Solve puzzles, exploit vulnerabilities, and race against time to capture the flag.",
     topic: [],
+    showData: false
   },
   {
     title: "Paper Presentation",
@@ -29,6 +31,7 @@ export const eventsList = [
     description:
       "Showcase your research and innovative ideas! Present your paper to a panel of experts and gain recognition for your technical prowess.",
     topic: [],
+    showData: false
   },
   {
     title: "Fun Arena ",
@@ -37,6 +40,7 @@ export const eventsList = [
     description:
       "Engage in exciting tech-based games and challenges designed to test your skills and creativity in a fun environment.",
     topic: [],
+    showData: false
   },
 ];
 

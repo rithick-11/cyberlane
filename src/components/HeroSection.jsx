@@ -13,7 +13,7 @@ const HeroSection = () => {
         </h1>
         <p>Present's</p>
         <span className="inline-flex text-5xl sm:text-6xl mdtext-7xl animate-text-gradient bg-gradient-to-r from-orange-500 to-orange-200 bg-[200%_auto] bg-clip-text text-transparent">
-          Cyber.l@ne'25
+          Cyber.l@ne'25h
         </span>
         <p className="flex items-center gap-2">
           <SlLocationPin />
