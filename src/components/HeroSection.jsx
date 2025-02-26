@@ -22,7 +22,7 @@ const HeroSection = () => {
         <p className="flex items-center gap-2">
           <SlCalender /> 24/02/2025
         </p>
-        <CountdownTimer />
+        {/* <CountdownTimer /> */}
         <a
           href="https://docs.google.com/forms/d/1CXbdCbWANm3TK0Kz7j2JLez7mJwdBD1FCaExqy8fosI/edit?pli=1"
           className="block mt-4"
