@@ -22,7 +22,7 @@ const Register = () => {
             <p className="inline-flex font-semibold text-3xl animate-text-gradient bg-gradient-to-r from-orange-400 to-amber-100 bg-[200%_auto] bg-clip-text text-transparent">
             Cyber.l@ne Has Successfully Concluded!
             </p>
-            <CountdownTimer />
+            {/* <CountdownTimer /> */}
             {/* <p className="text-white">
               Spot Registration Fee: ₹200 per Participant
             </p> */}
