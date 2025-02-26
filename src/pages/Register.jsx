@@ -23,10 +23,10 @@ const Register = () => {
               Spot Registration Available !
             </p>
             <CountdownTimer />
-            <p className="text-white">
+            {/* <p className="text-white">
               Spot Registration Fee: ₹200 per Participant
-            </p>
-            <PaymentMethod />
+            </p> */}
+            {/* <PaymentMethod /> */}
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1252.13100879406!2d77.99882702219472!3d11.477491634526436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babe0bee4ef722b%3A0xa949856b58bb6c9e!2sMahendra%20Engineering%20College!5e0!3m2!1sen!2sin!4v1739944030449!5m2!1sen!2sin"
               width="600"
