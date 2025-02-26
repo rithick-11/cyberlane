@@ -20,7 +20,7 @@ const Register = () => {
           <div className="flex flex-col py-8 justify-center gap-4 items-center h-full text-center">
             <p className="text-xl text-red-500">Online Registration Closed</p>
             <p className="inline-flex font-semibold text-3xl animate-text-gradient bg-gradient-to-r from-orange-400 to-amber-100 bg-[200%_auto] bg-clip-text text-transparent">
-              Spot Registration Available !
+            Cyber.l@ne Has Successfully Concluded!
             </p>
             <CountdownTimer />
             {/* <p className="text-white">

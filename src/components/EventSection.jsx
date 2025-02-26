@@ -33,7 +33,7 @@ const EventSection = () => {
             <div className="mt-auto flex justify-between items-center">
               <Link to="/register" className="block">
                 <span className="px-4 py-2 rounded-sm w-full bg-orange-400">
-                  Register Now
+                Event Concluded
                 </span>
               </Link>
               {event.showData && (
